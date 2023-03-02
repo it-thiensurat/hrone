@@ -1,0 +1,49 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/DBMed.ttf",
+      "sha1": "a4ed185b1df8c8cae5f82eff05edbc168fc260b6"
+    },
+    {
+      "path": "assets/fonts/DBYord.ttf",
+      "sha1": "411af269a83a3e35c41f6c44ad952b99ea9f3622"
+    },
+    {
+      "path": "assets/fonts/NotoSansThai-Black.ttf",
+      "sha1": "e4a3f0cff6ccc32ca0f15d0f17c558455720f21c"
+    },
+    {
+      "path": "assets/fonts/NotoSansThai-Bold.ttf",
+      "sha1": "a8bcaf7c642fda91257616173a006bd55513ec2a"
+    },
+    {
+      "path": "assets/fonts/NotoSansThai-ExtraBold.ttf",
+      "sha1": "fda9d4e62f6d9e23a3728c2edc7c600c4d927592"
+    },
+    {
+      "path": "assets/fonts/NotoSansThai-ExtraLight.ttf",
+      "sha1": "4e84a46bfb71d9e3bb7fb6925168f65013d22834"
+    },
+    {
+      "path": "assets/fonts/NotoSansThai-Light.ttf",
+      "sha1": "ffc70332f89a86806236bb253c2e566fe6c54d53"
+    },
+    {
+      "path": "assets/fonts/NotoSansThai-Medium.ttf",
+      "sha1": "6dc602fd2843b6b782b932dd26b4b5484f29122c"
+    },
+    {
+      "path": "assets/fonts/NotoSansThai-Regular.ttf",
+      "sha1": "5dd3374492170140ac2b790d0f01a2b5377020f6"
+    },
+    {
+      "path": "assets/fonts/NotoSansThai-SemiBold.ttf",
+      "sha1": "1f396e81d3315250f56d98f847a35c63525b091b"
+    },
+    {
+      "path": "assets/fonts/NotoSansThai-Thin.ttf",
+      "sha1": "8361135f8f99a317b959a363e4b6097135429038"
+    }
+  ]
+}
