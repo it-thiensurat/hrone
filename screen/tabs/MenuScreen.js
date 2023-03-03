@@ -135,7 +135,7 @@ class MenuScreen extends React.Component {
         let that = this
         return (
             <View style={{ alignItems: 'center', padding: 6 }}>
-                <TouchableOpacity style={{ width: 90, height: 90, backgroundColor: grayColor, borderStyle: "solid", borderColor: grayColor, borderWidth: 1, marginBottom: 10, alignItems: 'center', borderRadius: 15, padding: 20, marginTop: 16 }}
+                <TouchableOpacity style={{ width: 90, height: 90, backgroundColor: 'transparent', borderStyle: "solid", marginBottom: 10, alignItems: 'center', borderRadius: 15, padding: 20, marginTop: 16 }}
                     onPress={
                         () => {
                             let uri = ''
@@ -173,7 +173,7 @@ class MenuScreen extends React.Component {
                         }
                     }>
                     <FastImage
-                        style={{ width: 85, height: 85, borderRadius: 10, borderColor: 'white', alignItems: 'center', position: 'absolute', justifyContent: 'center', marginLeft: -(DEVICE_WIDTH / 2) }}
+                        style={{ width: 85, height: 85, borderRadius: 10, borderWidth: 1.4, borderColor: grayColor, alignItems: 'center', position: 'absolute', justifyContent: 'center', marginLeft: -(DEVICE_WIDTH / 2) }}
                         source={{
                             uri: item.Pic,
                             priority: FastImage.priority.normal,
@@ -297,12 +297,12 @@ class MenuScreen extends React.Component {
                             topiclist.map((v, i) => {
                                 return (
                                     <View key={i} style={{ alignItems: 'center', paddingLeft: 13.5 }}>
-                                        <TouchableOpacity style={{ width: 80, height: 80, borderStyle: "solid", borderWidth: 1, marginBottom: 10, alignItems: 'center', borderRadius: 60, padding: 20, marginTop: 16 }}
+                                        <TouchableOpacity style={{ width: 80, height: 80, borderStyle: "solid", marginBottom: 10, alignItems: 'center', borderRadius: 60, padding: 20, marginTop: 16 }}
                                             onPress={() => {
                                                 this.getMenu(v.Topic_ID);
                                             }}>
                                             <FastImage
-                                                style={{ width: 80, height: 80, borderRadius: 92, borderColor: 'white', alignItems: 'center', position: 'absolute', backgroundColor: 'white', justifyContent: 'center', marginLeft: -(DEVICE_WIDTH / 2) }}
+                                                style={{ width: 80, height: 80, borderRadius: 92, borderWidth: 1.4, borderColor: grayColor, alignItems: 'center', position: 'absolute', justifyContent: 'center', marginLeft: -(DEVICE_WIDTH / 2) }}
                                                 source={{
                                                     uri: v.PIC,
                                                     priority: FastImage.priority.normal,
