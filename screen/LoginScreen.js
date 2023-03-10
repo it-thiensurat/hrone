@@ -180,9 +180,10 @@ class LoginScreen extends React.Component {
                 <View style={styles.marginBetweenVertical}></View>
                 <View style={[styles.shadow, styles.inputWithIcon]}>
                     <Icon name="user" color={grayColor} size={18} />
-                    <TextInput style={[styles.inputContainer, styles.bodyeng, { fontSize: 16 }]}
+                    <TextInput style={[styles.inputContainer, styles.bodyeng, { fontSize: 16, color: primaryColor }]}
                         ref={(input) => { this.username = input; }}
                         placeholder='Username'
+                        placeholderTextColor={grayColor}
                         keyboardType='email-address'
                         returnKeyType='next'
                         autoCapitalize='none'
@@ -193,9 +194,10 @@ class LoginScreen extends React.Component {
                 <View style={styles.marginBetweenVertical}></View>
                 <View style={[styles.shadow, styles.inputWithIcon]}>
                     <Icon name="lock" color={grayColor} size={18} />
-                    <TextInput style={[styles.inputContainer, styles.bodyeng, { fontSize: 16 }]}
+                    <TextInput style={[styles.inputContainer, styles.bodyeng, { fontSize: 16, color: primaryColor }]}
                         ref={(input) => { this.password = input; }}
                         placeholder='Password'
+                        placeholderTextColor={grayColor}
                         keyboardType='number-pad'
                         returnKeyType='done'
                         autoCapitalize='none'
